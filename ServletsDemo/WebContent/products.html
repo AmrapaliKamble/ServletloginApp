@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="AddServlet" method="post">
+		<table align="center" style="border: 2px ; border-radius:7px  ; background : grey ; height:200px; width: 400px; padding-left: 20px">
+			<tr>
+				<td><lable>Product Name :</lable></td>
+				<td><input type="text" name="productname" placeholder="Enter Product name"/></td>
+			</tr>	
+			<tr>
+			<td><lable>Manufacturer Name :</lable></td>
+				<td><select name="manufacturername" placeholder="Choose manufacturer" style="width:150px; ">
+				<option>Samsung</option>
+				<option>Iphone</option>
+				<option>Oppo</option>
+				<option>MI</option>
+				</select>
+				</td>
+			</tr>	
+			<tr>
+				<td><lable>Price:</lable></td>
+				<td><input type="number" name="price" placeholder="Enter price"/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add Products" /></td>
+			</tr>
+			<tr>
+				<td><a href="viewProducts.jsp">View Products</a></td>
+			</tr>
+		</table>
+	
+	</form>
+</body>
+</html>
